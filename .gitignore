@@ -1,0 +1,9 @@
+# Python
+__init__.py
+__pycache__
+
+# Environments
+venv 
+
+# Vscode
+.vscode
