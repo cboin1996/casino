@@ -1,6 +1,7 @@
 # Python
 __init__.py
 __pycache__
+*.egg*
 
 # Environments
 venv 

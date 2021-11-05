@@ -1,0 +1,18 @@
+21-11-03 22:08:43 __main__     INFO     Starting up casino @2021-11-03 22:08:43
+21-11-03 22:08:43 __main__     INFO     Launching CLI!
+21-11-03 22:08:43 casino.agents.gamerunner INFO     Setting up game environment
+21-11-03 22:08:43 casino.environments.easy21.easy21 INFO     Initializing Easy21!
+21-11-03 22:08:43 casino.environments.easy21.player INFO     Initializing new Player!
+21-11-03 22:08:43 casino.environments.easy21.player INFO     Initializing new Player!
+21-11-03 22:08:43 casino.environments.easy21.easy21 INFO     Resetting game environment!
+21-11-03 22:08:43 casino.environments.easy21.player INFO     Resetting Player 'player' with card (color : Color.BLACK, number: 9)!
+21-11-03 22:08:43 casino.environments.easy21.player INFO     Resetting Player 'dealer' with card (color : Color.BLACK, number: 3)!
+21-11-03 22:08:43 casino.agents.gamerunner ERROR    Invalid agent type!
+Traceback (most recent call last):
+  File "c:\users\christian boin.jmp\prog\casino\casino\agents\gamerunner.py", line 63, in set_agent
+    self.agent = Agent[agent.lower()]
+  File "C:\Python37\lib\enum.py", line 357, in __getitem__
+    return cls._member_map_[name]
+KeyError: 'human'
+21-11-03 22:08:43 casino.agents.gamerunner INFO     Game [Easy21] has been setup!
+21-11-03 22:08:43 casino.agents.gamerunner INFO     Running!

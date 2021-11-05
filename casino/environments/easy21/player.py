@@ -16,7 +16,7 @@ class Player:
         """
         logger.info(f"Resetting Player '{self.name}' with card {card}!")
         self.cards = [card]
-        self.score = card.num
+        self.score = card.number
         self.last_action = Action.NONE
         self.turn_count = 0
     

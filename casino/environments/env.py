@@ -7,6 +7,13 @@ class Env(ABC):
     Args:
         ABC (abc.ABC): the abstract class interface
     """
+    def __init__(self, name: str):
+        """Constructor, with a name for the environment
+
+        Args:
+            name (str): the name of the environment
+        """
+        self.name = name
 
     @abstractmethod
     def reset(self) -> None:

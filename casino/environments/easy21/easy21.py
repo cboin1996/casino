@@ -21,6 +21,7 @@ class Easy21(Env):
     def __init__(self):
         """Initializes the game, with a black card sampled from the deck for both the player and dealer
         """
+        super().__init__("Easy21")
         logger.info("Initializing Easy21!")
         self.player = Player("player")
         self.dealer = Player("dealer")

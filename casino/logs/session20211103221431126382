@@ -1,0 +1,11 @@
+21-11-03 22:14:31 __main__     INFO     Starting up casino @2021-11-03 22:14:31
+21-11-03 22:14:31 __main__     INFO     Launching CLI!
+21-11-03 22:14:31 casino.agents.gamerunner INFO     Setting up game environment
+21-11-03 22:14:31 casino.environments.easy21.easy21 INFO     Initializing Easy21!
+21-11-03 22:14:31 casino.environments.easy21.player INFO     Initializing new Player!
+21-11-03 22:14:31 casino.environments.easy21.player INFO     Initializing new Player!
+21-11-03 22:14:31 casino.environments.easy21.easy21 INFO     Resetting game environment!
+21-11-03 22:14:31 casino.environments.easy21.player INFO     Resetting Player 'player' with card (color : Color.BLACK, number: 3)!
+21-11-03 22:14:31 casino.environments.easy21.player INFO     Resetting Player 'dealer' with card (color : Color.BLACK, number: 1)!
+21-11-03 22:14:31 casino.agents.gamerunner ERROR    Game [Easy21] could not be setup!
+21-11-03 22:14:31 casino.agents.gamerunner ERROR    Could not run due to an initialization error!

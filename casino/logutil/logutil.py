@@ -1,4 +1,5 @@
 import logging
+import sys
 
 def setup_global_logging_stream(fmt: str):
     """Setup the logging for the package.

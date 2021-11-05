@@ -31,7 +31,7 @@ class InfiniteDeck:
             color (Color, optional) : force a color in the draw
         """
         card_number = np.random.randint(1,10, dtype=int)
-        if color is None
+        if color is None:
             card_color = random.choices([Color.RED, Color.BLACK], [1/3,1])[0]
         else:
             card_color = color
