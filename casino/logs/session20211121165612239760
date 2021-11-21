@@ -1,0 +1,21 @@
+21-11-21 16:56:12 __main__     INFO     Starting up casino @2021-11-21 16:56:12
+21-11-21 16:56:12 casino.workers.gamerunner INFO     Setting up game environment for training
+21-11-21 16:56:12 casino.environments.easy21.easy21 INFO     Initializing Easy21!
+21-11-21 16:56:12 casino.environments.easy21.player INFO     Initializing new Player w/ name [player]!
+21-11-21 16:56:12 casino.environments.easy21.player INFO     Initializing new Player w/ name [dealer]!
+21-11-21 16:56:12 casino.workers.gamerunner INFO     Game [Easy21] has been setup!
+21-11-21 16:56:12 casino.io.disk INFO     Attempting to read in file @ c:\Users\chris\Prog\casino\casino\data\20211121164538164991\qfunc.json
+21-11-21 16:56:12 casino.io.disk INFO     Read json file to dict @ path c:\Users\chris\Prog\casino\casino\data\20211121164538164991\qfunc.json.
+21-11-21 16:56:12 casino.workers.gamerunner INFO     Agent [Qlearn] has been setup!
+21-11-21 16:56:12 casino.workers.gamerunner INFO     Launching training session with 1000 episodes!
+21-11-21 16:56:12 casino.workers.gamerunner INFO     Reached episode [1] of [1000].
+21-11-21 16:56:14 casino.workers.gamerunner INFO     Training session complete.
+21-11-21 16:56:14 casino.agents.agent INFO     Saving training data.
+21-11-21 16:56:14 casino.agents.qlearn INFO     Saving.
+21-11-21 16:56:14 casino.io.disk INFO     Saved json file @ path C:\Users\chris\Prog\casino\casino\data\20211121165612239760\qfunc.json.
+21-11-21 16:56:14 casino.io.disk INFO     Saved json file @ path C:\Users\chris\Prog\casino\casino\data\20211121165612239760\policy.json.
+21-11-21 16:56:14 casino.io.disk INFO     Saved json file @ path C:\Users\chris\Prog\casino\casino\data\20211121165612239760\metadata.json.
+21-11-21 16:56:14 casino.workers.runner INFO     Shutting down
+21-11-21 16:56:14 casino.workers.gamerunner INFO     Quitting. Saving training results
+21-11-21 16:56:14 casino.workers.gamerunner INFO     Quit completed
+21-11-21 16:56:14 casino.workers.runner INFO     Shutdown completed

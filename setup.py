@@ -5,5 +5,10 @@ setup(name='casino',
       description='Python Casino!',
       author='Christian Boin',
       url='',
-      packages=[numpy],
+      install_requires=[
+            'pandas==1.1.5',
+            'numpy==1.19.5',
+            'matplotlib==3.3.4',
+     ],
+      packages=[],
      )

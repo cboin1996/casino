@@ -25,7 +25,7 @@ class InfiniteDeck:
         self.high_bound = high_bound
         self.color_bias = color_bias
     
-    def draw(self, color=Optional[Color]):
+    def draw(self, color=None):
         """Draws a card from the deck
         Args:
             color (Color, optional) : force a color in the draw

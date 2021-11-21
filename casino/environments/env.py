@@ -7,17 +7,19 @@ class Env(ABC):
     Args:
         ABC (abc.ABC): the abstract class interface
     """
-    def __init__(self, name: str):
+    def __init__(self, name: str, num_actions: int):
         """Constructor, with a name for the environment
 
         Args:
             name (str): the name of the environment
         """
         self.name = name
+        self.n_actions = num_actions
 
     @abstractmethod
-    def reset(self) -> None:
+    def reset(self) -> list:
         """Override this method implementing logic for resetting the environment
+        Return: the state upon reset
         """
         pass
 
@@ -41,7 +43,11 @@ class Env(ABC):
 class Result(Enum):
     """The result for a game
     """
-    WINNER = 0,
-    LOSER = 1,
+    WINNER = 0
+    LOSER = 1
     DRAW = 2
 
+class Games(Enum):
+    """Enum for the types of games
+    """
+    EASY21 = 0
