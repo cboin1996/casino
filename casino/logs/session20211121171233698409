@@ -1,0 +1,7 @@
+21-11-21 17:12:33 __main__     INFO     Starting up casino @2021-11-21 17:12:33
+21-11-21 17:12:33 casino.workers.gamerunner INFO     Setting up game environment for training
+21-11-21 17:12:33 casino.environments.easy21.easy21 INFO     Initializing Easy21!
+21-11-21 17:12:33 casino.environments.easy21.player INFO     Initializing new Player w/ name [player]!
+21-11-21 17:12:33 casino.environments.easy21.player INFO     Initializing new Player w/ name [dealer]!
+21-11-21 17:12:33 casino.workers.gamerunner INFO     Game [Easy21] has been setup!
+21-11-21 17:12:33 casino.io.disk INFO     Attempting to read in file @ c:\Users\chris\Prog\casino\casino\data\20211121170028635428\qfunc.json

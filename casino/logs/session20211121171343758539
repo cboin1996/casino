@@ -1,0 +1,40 @@
+21-11-21 17:13:43 __main__     INFO     Starting up casino @2021-11-21 17:13:43
+21-11-21 17:13:43 casino.workers.gamerunner INFO     Setting up game environment for training
+21-11-21 17:13:43 casino.environments.easy21.easy21 INFO     Initializing Easy21!
+21-11-21 17:13:43 casino.environments.easy21.player INFO     Initializing new Player w/ name [player]!
+21-11-21 17:13:43 casino.environments.easy21.player INFO     Initializing new Player w/ name [dealer]!
+21-11-21 17:13:43 casino.workers.gamerunner INFO     Game [Easy21] has been setup!
+21-11-21 17:13:43 casino.io.disk INFO     Attempting to read in file @ c:\Users\chris\Prog\casino\casino\data\20211121170028635428_monte\qfunc.json
+21-11-21 17:13:43 casino.io.disk INFO     Read json file to dict @ path c:\Users\chris\Prog\casino\casino\data\20211121170028635428_monte\qfunc.json.
+21-11-21 17:13:43 casino.workers.gamerunner INFO     Agent [Sarsa] has been setup!
+21-11-21 17:13:43 casino.workers.gamerunner INFO     Launching training session with 10000 episodes!
+21-11-21 17:13:43 casino.agents.qlearn INFO     MSE = [-2.044016107455385] at episode [0]!
+21-11-21 17:13:43 casino.workers.gamerunner INFO     Reached episode [1] of [10000].
+21-11-21 17:13:45 casino.agents.qlearn INFO     MSE = [-99.32129683012678] at episode [1000]!
+21-11-21 17:13:45 casino.workers.gamerunner INFO     Reached episode [1001] of [10000].
+21-11-21 17:13:47 casino.agents.qlearn INFO     MSE = [-93.04008242081807] at episode [2000]!
+21-11-21 17:13:47 casino.workers.gamerunner INFO     Reached episode [2001] of [10000].
+21-11-21 17:13:50 casino.agents.qlearn INFO     MSE = [-89.6585368007413] at episode [3000]!
+21-11-21 17:13:50 casino.workers.gamerunner INFO     Reached episode [3001] of [10000].
+21-11-21 17:13:52 casino.agents.qlearn INFO     MSE = [-89.94761417591316] at episode [4000]!
+21-11-21 17:13:52 casino.workers.gamerunner INFO     Reached episode [4001] of [10000].
+21-11-21 17:13:54 casino.agents.qlearn INFO     MSE = [-89.02973668503157] at episode [5000]!
+21-11-21 17:13:54 casino.workers.gamerunner INFO     Reached episode [5001] of [10000].
+21-11-21 17:13:56 casino.agents.qlearn INFO     MSE = [-88.74231121301331] at episode [6000]!
+21-11-21 17:13:56 casino.workers.gamerunner INFO     Reached episode [6001] of [10000].
+21-11-21 17:13:59 casino.agents.qlearn INFO     MSE = [-88.84830604372097] at episode [7000]!
+21-11-21 17:13:59 casino.workers.gamerunner INFO     Reached episode [7001] of [10000].
+21-11-21 17:14:01 casino.agents.qlearn INFO     MSE = [-89.21440638690432] at episode [8000]!
+21-11-21 17:14:01 casino.workers.gamerunner INFO     Reached episode [8001] of [10000].
+21-11-21 17:14:03 casino.agents.qlearn INFO     MSE = [-88.32160472470652] at episode [9000]!
+21-11-21 17:14:03 casino.workers.gamerunner INFO     Reached episode [9001] of [10000].
+21-11-21 17:14:06 casino.workers.gamerunner INFO     Training session complete.
+21-11-21 17:14:06 casino.agents.agent INFO     Saving training data.
+21-11-21 17:14:06 casino.agents.qlearn INFO     Saving.
+21-11-21 17:14:06 casino.io.disk INFO     Saved json file @ path C:\Users\chris\Prog\casino\casino\data\20211121171343758539\qfunc.json.
+21-11-21 17:14:06 casino.io.disk INFO     Saved json file @ path C:\Users\chris\Prog\casino\casino\data\20211121171343758539\policy.json.
+21-11-21 17:14:06 casino.io.disk INFO     Saved json file @ path C:\Users\chris\Prog\casino\casino\data\20211121171343758539\metadata.json.
+21-11-21 17:14:06 casino.workers.runner INFO     Shutting down
+21-11-21 17:14:06 casino.workers.gamerunner INFO     Quitting. Saving training results
+21-11-21 17:14:06 casino.workers.gamerunner INFO     Quit completed
+21-11-21 17:14:06 casino.workers.runner INFO     Shutdown completed
